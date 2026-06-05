@@ -1,0 +1,21 @@
+{
+    "name": "api",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "tsx watch src/index.ts",
+        "build": "tsc",
+        "start": "node dist/index.js"
+    },
+    "dependencies": {
+        "fastify": "^5.8.5",
+        "zod": "^4.4.3",
+        "@citizenready/types": "workspace:*"
+    },
+    "devDependencies": {
+        "@types/node": "^20.19.41",
+        "tsx": "^4.22.4",
+        "typescript": "^5.9.3"
+    }
+}
